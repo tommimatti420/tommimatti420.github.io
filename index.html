@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Jonnetusmaksimus</title>
+		<meta charset="utf8">
+		<style>
+*{ box-sizing: border-box; }
+		
+#header, #footer {
+border: solid black 3px;
+background-color: #F00000;
+}
+#menu,#container,#content{
+border: solid black 1px;
+}
+img{
+float:right;
+}
+#menu {
+float:left;
+width:25%;
+}
+#content{
+float:left;
+width:75%;
+}
+#container::after {
+content: "";
+display: table;
+clear: both;
+}
+#menu li {
+ background-color: #F00000;
+ padding:5px;
+ margin:5px;
+ color:#FF00FF:
+ }
+ #menu li:hover {
+ background-color:F00000;
+ color:FF00FF;
+}	
+	</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1><u><em>Jonnelauma</u></em></h1>
+		</div>
+		<div id="container">
+			<div id="menu">
+				<ol>
+					<li><a href="https://fi.wikipedia.org/wiki/Peruna">Peruna <a> </li>
+					<li><a href="pelto.html">Pelto <a> </li>
+					<li>lista3</li>
+					<li>lista4</li>
+				</ol>
+			</div> <!-- menu loppuu -->
+			<div id="content">
+				<img src="Nousiainen.vaakuna.svg.png" style= "width: 320px; heigth: 240px;">
+				<p><h3>
+
+</p></h3>
+			</div> <!-- content loppuu -->
+		</div> <!-- container loppuu -->
+		<div id="footer">
+		<p>Ü Tivi-17o</p>
+		</div>
+		
+	</body>
+</html>
